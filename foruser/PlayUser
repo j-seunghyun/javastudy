@@ -1,0 +1,18 @@
+package foruser;
+
+public class PlayUser{
+
+  static int playernum = 0; //player's isbm
+  // has a array of cards
+  // placed in Board
+  // can make a team
+
+  PlayUser(){
+    num ++;
+  }
+  static int getPlayernum(){
+    return num;
+  }
+
+  
+}
