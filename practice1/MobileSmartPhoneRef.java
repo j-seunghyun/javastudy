@@ -13,6 +13,7 @@ class MobilePhone {
 
 class SmartPhone extends MobilePhone{
   public String androidVer;
+  static int number = 0;
 
   public SmartPhone(String num, String ver){
     super(num);
